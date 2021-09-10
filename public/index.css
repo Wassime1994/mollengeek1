@@ -1,0 +1,148 @@
+body{ 
+    background-color: whitesmoke;
+    margin: 0
+    ;
+}
+ header { 
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+.barre { 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(160, 1, 160) ; 
+    height: 50px ;
+    width: 100%
+}
+.titre{ 
+    color: white;
+    padding: 5px;
+    opacity: 80%;
+}
+button { 
+    height: 30px;
+    background: green ; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px ;
+}
+input{
+    height: 30px;
+    border-radius: 8%;
+}
+#logo-many { 
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left : 5%;
+
+}
+
+.barre-input { 
+    display: flex;
+    align-items: center;
+}
+.underline { 
+  text-decoration: underline;
+  list-style-type: none;
+}
+li { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li:hover {
+    text-decoration: underline ; 
+    border-left: 5px solid gold ; 
+    border-right: 5px solid gold ; 
+    font-size: 120%;
+
+    opacity: 80%
+    ;
+}
+nav ul { 
+    display: flex;
+   justify-content: center; 
+    list-style-type: none;
+   padding-left: 5px
+;
+} 
+nav ul li { 
+    width: 9%;
+    }
+nav  {
+height: 80px;
+margin-top: 20px;
+background: whitesmoke ; 
+
+}
+a { 
+    text-decoration: none;
+    color: black;
+    position: relative ; 
+    left: 0%;
+}
+ h1 {
+     text-align: center;
+     font-size: 60px;
+ }
+ hr{
+     width: 50px;
+ }
+ p{
+     margin-bottom: 50px;
+     margin-top: 50px;
+   
+ }
+.sous-liste li { 
+position: relative;
+left: 0%;
+
+}
+
+ .sous-liste { 
+     list-style-type : none ; 
+     position: relative;
+     margin-left: 0%;
+ }
+.sous-liste li::before
+  {content: " • "; color: purple}
+
+
+.img-footer {
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+  footer{
+      height: 300px;
+      width: 100%;
+      background: rgb(68, 67, 67); 
+      display: flex ;
+      align-items: center;
+    justify-content: center ; 
+      color: white
+      ;
+  }
+  .reseaux {
+    display: flex ;
+    color: white ;
+    
+      
+  }
+  .image {
+      height: 100px;
+      width: auto;
+      position: relative ; 
+      left: 50%;
+      top: 50% ; 
+      transform: translateX(-50%);
+
+
+
+  }
